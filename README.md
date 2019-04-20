@@ -62,5 +62,3 @@
         canvas.drawCircle(coords[0], coords[1], 20, mPointPaint);
     }
 从以上代码可以看出，重点用到的是**mPathMeasure.getPosTan(value, coords, null);** 、**mPathMeasure.getLength()**、**mPointPaint.setMaskFilter(blurMaskFilter);** 三个方法
-
-代码地址：
